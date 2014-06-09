@@ -1,0 +1,50 @@
+## GIS Workshop - June 9 - Morning
+
+### Fieldtrip GB
+
+* [http://fieldtripgb.blogs.edina.ac.uk/](http://) 
+* works without GPS
+* doesn't rely on grid
+* potentially something to look at for fieldwork ... recording specimen data, etc.
+
+### Hands-on using qgis and data sets.
+
+* see handout
+* created map using raster (image), vector(points), and wms(map base) layers ... historical buildings in Edinburgh.
+* QGIS Plugins
+     * OGR ... create a exported version of the work you did to put on the web as an interactive map.
+
+### GIS in Digital Repositories
+
+* [slides](https://docs.google.com/a/upei.ca/file/d/0B5fLh2mc4FCbMFFPQjJtX1hidW8/edit)
+* metadata and wrangling > curation > delivery > discovery
+* Hydra ... community and tech framework ... repo with many diff heads
+	* hydra head (CRUD), Blacklight (Read), Fedora, Solr (Solrizer) ... could we use solrizer in Islandora and get rid of GSearch?
+* vector data - point, line, polygon - GeoBlackLight
+* historic maps can be georectified ... transparency allows you to view basemap
+* raster data - modelled output ..eg population data, can also be imagery ... 
+* GIS Data
+	* layers of data (eg. vector and rastor)
+	* those and other assets with geo properties ... eg. a postcard with coordinate data
+* Discovery
+	* see slide 20 for screencast link, etc.
+	* see discovery use cases in slides 22 and 23 
+	* GeoBlacklight demo ... really nice
+	* MODS metadata ... extension element with custom schema to record bounding box data ... maybe ESRI?
+	* Geoportal
+		* http://geodata.tufts.edu - is another way to  discover GIS data
+	* BlackLight Maps
+		* tool to map results that have coordinate info
+		* clustering 
+		* alternative views
+		* eg. scanned maps that have a bounding box ... but have not been georectified
+	* Bassi-Veratti Collection
+		* custom application for manuscripts with geo data ... eg letters tagged with Florence.
+		* spatial view of the content
+		
+### GeoServer
+
+* important part of GIS infrastructure
+* plug in various database servers ... output various servers
+* GDAL ... important as well ... conversion utility ... many file formats supported
+* GeoTIFF and Shapefiles as canoncial formats at Stanford 
