@@ -1,0 +1,319 @@
+OR2014 - Day 1 - Tuesday June 10, 2014
+
+## Keynote
+
+"VCU Promtion and tenure committees should recognize that publications [in open access formats] ... "
+
+eLIFE, PeerJ, PLOS, BMC
+
+make a list of open access journals in various subject areas ... check Erin's figshare document.
+
+translation services ... 
+
+Changing culture
+
+* "cost of knowledge" boycott
+* refusing to edit for a paywalled journal
+
+## 24x7 talks
+
+### Making SHERPA/FACT Local
+
+* [http://www.sherpa.ac.uk/fact](http://) 
+* FACT is the SHERPA tool that tells authors if a given journal complies with certain funders’ requirements for open access, whether via the gold or green route.
+* Display green only. 
+	* provide a sample subject list with compliance
+	
+### Too many copies: confusion between duplication and versioning
+
+* Pubication Router diagram (also her poster)
+* Duplication is a good thing (eg. replicating to other repos for example, LOCKSS)
+* Author > Publisher > Versions (draft, etc. NISO defines several versions) 
+* Author > Subject Repo and/or IR
+* Author(s) > Subject Repo and/or IR
+* Journal Router helps with provenance type metadata
+
+### Preserve your content with LOCKSS-O-Matic
+
+* LOCKSS 
+	* Can create Private Lockss networks (PLN) that replicates and harvests contents
+	* share a common set of config files
+* Problems
+	* config files for nodes are manually maintained
+* Solutions
+	* automate network config files
+	* automate ingest of new content into network 
+* LOCKSS-O-MATIC
+	* LAMP app
+		* UI
+		* SWORD
+		* network monitoring tools
+	* Supports automated or manual ingest
+	* diagram of l-o-m framework
+	* Deposit
+		* CSV of base URL for content to be harvested
+	* Use Cases
+		* Archivematica integration
+			* Utilizing SWORD
+		* PKP PLN
+			* OJS journals SWORD deposit
+		* Islanodora integration
+	* Work remaining
+		* UI, net monitoring, test/documentation, release 2014
+		
+### Invenio v2.0: A Pythonic Framework for Large-Scale Digital Libraries
+
+* v2 of Invenio
+* DL depository software
+* IR use cases, subject repo use case, Document server
+* custom to generalized solution
+* XML API to JSON API
+* moved to Github
+* Flask ? extensions 
+* Support for EAD > JSON translation
+* Linked data concepts
+* using Bagit 
+* Blog Forever ... 
+
+### SobekCM’s Community Ecosystems & Socio-Technical Practices
+
+* pair-tree
+* support for many XML formats
+* Windows Server application
+* dLOC - digital library of the caribbean
+	* digitization toolkits
+* Q/A tools ... 
+* Curator tools ... 
+
+### EPrints Imports via DOI and ORCID
+* the ability to extract ORCID IDs from the data contained in a DOI import and the ability to discover and import new works using the ORCID Identifier via ORCID API. 
+* BORIS 
+* Import via DOI standard plugin for EPrints
+* ORCID ID gets returned as part of the import
+	* lookup buttons result that allow user to add more authors
+* ORCID Admin interface in EPrints
+	* interface to confirm or associate people in the repo with their orcid ids
+* ORCID Public API
+	* works metadata
+	* data gets extracted (eg. a DOI or PMID)and can be reused to launch another harvest etc.
+* To update member profiles ... you need to access the Member API ... which requires auth, etc.
+* the ORCID API is well documented.
+
+### Evolver: The Evolution of The Extended EPrints Ecosystem
+
+* focus on getting info in
+* Isolation to collaborative projects
+* text to mutlimedia
+* galleries/exhibit tools ... eg. herbarium project Linnean Society
+* Atlantic Archive - Uk/US proj ... wartime correspondence/book like material
+* creating journals from repo content
+	* SAS Open Journals
+
+### Rising to the impossible challenge: the storage of all research data, forever?
+
+* "The task of storing research data objects, potentially for many decades, both safely and securely, at the lowest possible cost, and whilst still ensuring the data can be easily retrieved (bit-perfect) when required is far from straightforward."
+* focus on 'deep storage' archive layer (eg. tape)
+* cloud based services for archival storage
+	* data and financial escrow
+	* tax
+	* bandwidth
+* tape model 180 Euro/TB over 5 yrs
+* Data Archive Cloud Model
+	* unknown volume
+	* ISO security standards
+	* ... 
+* Data Archive as Service ... 
+
+
+## OR2014 - Afternoon sessions
+
+### 24x7
+
+#### COAR
+
+* SHARE
+	* SHared Access Research E
+* COAR
+	* avoid silos
+	* potential sustainability issues 
+* Priorities
+	* Policies
+		* Embargo Periods
+	* Interoperability
+	* Services
+		* RDM
+		* Research Evaluation Systems
+* ORCID, EuroCRIS, and CASRAI
+* 
+	
+#### National Identity Service
+* DRI - Digital Repo of Ireland	  
+	* store and make acessible
+* TDR
+	* goals - reduce admin overhead
+	* access contols on home institution
+	* Personalization
+	* For user
+		* one less pw
+		* ... 
+* Edugate
+	* SAML Federation - Shibboleth
+* Ruby on Rails
+	* Devise
+	* Omniauth
+	* Omniauth Sibboleth
+* Summary
+	* Add Shibb
+	* Registering Service with Edugate
+	* Conf Shibb (Hard to set up)
+	* Standardized set of attributes
+
+#### A platform for assessing the current stat of data repositories in Korea, Japan and China	 
+
+* OpenDOAR and ROAR ... (check to ensure our repositories are represented there)
+* Developed crawlers for opendoar and roar
+
+#### Not going it alone
+US National Digital Stewardship Agenda
+
+* digital stewardship 
+* org policies and practices
+	* better, shared digital stewardship activity metrics
+	* identify shared infrastructure...
+	* fund research into digital stewardship roles and mandates
+	* expand role of info professionals in librarianship
+	* longitudinal surveys of digi stew to explore efficacy
+* content
+	* dynamic content
+	* software
+	* av material
+	* tech infra dev
+	* coordinating eco services
+	* file format action plans
+	* ensuring content integrity
+	* interoperability
+	* digi forensic 
+* research priorities
+	* applied research re: costs
+	* info equivlents
+	* preservation at scale
+	* evidence base for digital preservation
+	  
+#### The Fedora Secret Sauce
+
+* 18 months .... 
+	* rearchitected
+	* priorities
+	* product dev cycle
+	* community oriented
+	* communicated ... 
+* Secret Sauce
+	* Activist Steering Group
+	* Shared Vision
+	* Community Ownership
+	* Agile Methodology
+	* Duraspace Stewardship
+	* Governance
+	* Meetings, Events, Communications
+#### Biodiversity Heritage Library
+
+* global
+* virtual org - museum, libraries, other institutions
+* link outs to linked out data ... sci names recognized and linked to their taxonomic terms
+* open to other content provided
+* Internet Archive has a copy and Smithsonian has a dark copy.
+* BHL Europe has a subset
+* 70 TB of data
+
+-  
+#### Grey literature, green open access 
+
+* British Library for Development Studies
+	* 60% published in dev countries
+	* grey lit more freq dl than articles
+	* started in 2010
+	* digitized existing holdings
+	* 2011 DSpace
+	* becomes Global Open Knowledge Hub
+* Approach 
+	* whats not online
+	* copyright
+	* focus countries
+	* CC license
+* Benefits
+	* Discoverability (also in lib cat)
+	* Preservation
+	* Authority
+	* Metrics
+* Citation advantage
+* Sustainability
+	* could be self-sustaining
+	* partners will have to help
+* Issues
+	*
+
+#### Supporting Repository Interoperability Through Guidelines
+
+* OpenAIRE
+* Open Access Infrastructure for research in Europe
+* Participatory approach
+* linking pubs to data
+* guidelines.openaire.eu, validator.openaire.eu
+
+
+## JISC: Building a Cohesive Repository Shared Services Infrastructure for the UK 
+
+* key repo services
+* CoRE, OpenDOAR, IRUS-UK, DIOXX, V4OA, SHERPA FACT, SHERPA JULIET, SHERPA RoMEO, Publications Router
+* KEY ... COMMON METADATA REQUIREMENTS ACROSS INSTITUTIONAL REPOS
+* Sustainability Issues
+* EDINA - Publications Router
+	* Delivery service for publication
+	* focused on UK
+	* affiliation in metadata is critical
+	* Browse: http://broker.edina.ac.uk
+	* Harvest: http://broker.edina.ac.uk/cgi/oai2
+	* Notification: http://broker.edina.ac.uk/cgi/postcard_ 
+* IRUS-UK - metrics
+	* interested in not just articles
+	* counting actual downloads
+	* produce counter-compliant reports
+	* PUSH: Tracker code (scales much better than Pull/OAI-PMH harvesting)
+	* Implementation guidelines for Fedora (Chris at Hull is working on this)
+	* OpenURL is sent to IRUS-UK
+	* IRUS-UK processes the data using PERL
+	* daily processing
+	* can compare themselves with peers
+	* benchmarking and use cases
+* CORE - COnnecting Repositories
+	* focused on UK content
+	* OAI-PMH to harvest ... pull out the full text
+	* harvested records are enriched
+	* Use cases
+		* raw data access 
+			* develop new APIs to exploit the data eg. text mining the content
+		* transaction access
+			* CORE Portal
+			* CORE Plugin
+		* Analytical Access
+			* support research mgt and report activities
+				* repo analytics (eg. discover issues in the metadata)
+				* compliance analytics
+* SHERPA services
+	* Services
+		* ROMeO
+			* global service of authors' rights for using repo
+			* data on archiving permissions and rights given to authors by journal publishers
+		* Juliet
+			* registry of funder mandates and requirements
+		* OpenDOAR
+			* listing of world's repositories
+		* FACT
+			* advice for authors on ... 
+		* all exposed with APIs
+battery ran out ... need to transcribe written notes		
+
+
+
+	 
+	 
