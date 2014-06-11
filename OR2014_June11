@@ -1,0 +1,139 @@
+## OR 2014 - June 11, 2014 - Conference notes
+9:00 am - Repository Rants
+
+### Comprehensive digital preservation repositories: gaps, and what do we mean by “repository” anyway?
+
+* preservation - Safe, Long Term, Trusted
+* when we don't have the physical object 
+* how do ensure we are preserving born-digital
+	* ensure we have a preservation mandate
+* what does 'forever' mean in the preservation repo
+* need selection and retention policies for digital content
+* preserving A/V material ... physical formats and the gear to play them are disappearing. Important to migrate that content now.
+
+### A repository is NOT a digital archive
+
+* repository ... defn. ... nothing assoicatied with long term
+* a preservation plan it needed
+* selected preservation 
+* archival-quality digital objects
+* preservation metadata ... does the object have it
+* tech metadata with preservation in mind
+* preservation is 'active'
+* access and rights mgt for the long term
+* regular, planned checks ... does it play.
+* preservation training - London stephanie.taylor@london.ac.uk
+* NDSA National Digital Stewardship Alliance in the US
+
+### Digital Scavenging
+
+* anthopologists/archivist/archaeologist
+* acquire backups of content systems 
+* harvesting institutional website and content
+* virtual images of entire systems
+* FRED machine
+* BitCurator
+
+### The Invisible Institutional Repository: Missing a Trick (and Missing Fulltext)? - William Nixon
+
+* they don't use the term repository ... it is a barrier ... instead they use the name of the service - Enlighten
+* it isn't just a repo ... it is a repo service
+* policies
+
+### How can we agree on some product agnostic repository function fundamentals?
+
+* CRUD
+* more than that ... 
+
+### A DNS Bases Approach To Electronic Persistance, or "If Your Pants Fit, Why Use Suspenders?"
+
+* PURLS, URN, Handles ... redirections
+* ARK conceived by the CDL
+	* access is the basic requirement
+* DOI 
+	* social contract
+	* institution commits to maintainance
+* DNS
+	* HTTP and DNS are fundamental parts
+
+### Think about sustainability
+
+* economist, works in a bank
+* NEURUS
+	* faculty works, metadata, portal, meetings, 2010 launched a website portal. 2014 metadata deleted, portal deleted. 
+	* 4 year life.
+	* Why
+		* Economists have a pre-print culture
+	* How could it have been better
+		* ask users
+		* ask others that are doing the same
+* RePEc	
+	* access to researc and disseminiation
+	* 1700 pub provide metadata
+	* Services
+	* Designed by users, no central costs, clear purpose/value, incentives
+
+### An Alternative American Approach to Repositories
+
+* totally mediated
+* immediate feedback
+* maximize content upload
+* IR belongs to the faculty
+* disseminate faculty content as widely as possible
+* 2nd largest IR in US
+* 71,000 Fulltext dl
+* University's most visited sub-domain
+* content appears above commercial publishers
+* typeset author versions to match published works
+* exploit Public Domain
+* harvest and repost
+* Repositorieans ... 
+* this was a good rant.
+
+### A tale of two communities
+
+* documentation issues
+* created a group to help each other ... are they contributing back to the wider OS community or have they created their own "echo chamber"?
+* it is hard ... to install, maintain, write documentation for, .... 
+
+### Raise All Ships: Cooperative Repository Strategies in a Boot-Strap Culture
+
+* differences in large institutions and small institutions
+* Texas Digital Library
+
+## Hacking User Experience in a Repository Service: ScholarSphere as a Case Study
+
+* PennState
+* UX
+	* build simplicity into your repository
+	* about services as well
+* 9 months to bring ScholarSphere online
+	* Liaison librarians
+	* LL provided use cases
+	* Lots of listening
+	* Devs at meeting ... crucial
+* Marketing ... we should talk to Dave A. or IC about doing a campaign
+* IslandScholar's profile page ... what else to include? 
+	* Do faculty have a twitter account ? or other social media accounts that they want to share? would we embed a twitter feed? 
+	*  ResearchGate, ORCID, Mendeley, ScholarID, ...  
+
+## Spotlight: A Blacklight Plugin for Showcasing Digital Collections
+
+* sits on top of repo
+* digital library discovery environments
+* full featured, flexible, self-service, integrated
+* Maps of Africa: An Online Exhibit
+	* list, grid, slideshow, geo coordinates
+	* curator has added customization
+	* deep zoom viewer - openseadragon
+	* browse feature ... created by curator ... canned searches for users
+* A spotlight exhibit
+	* index of empty items (a defined collection/set of objects)
+	* settings - drupal site admin eg. title of site
+	* create custom pages, home, feature, ... 
+	* wysiwyg ... widgets
+	* simple text formating tools
+	* repo tools ... widgets that integrate with repo objects. eg insert tn, image grids
+	* curator has control over display and facets ... labels, display order of metadata, etc.
+	* exhibit specific fields
+		* eg. curartor's note field
